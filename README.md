@@ -100,6 +100,12 @@ streamlit run app.py
 ```
 Opens at `http://localhost:8501` with 5 pages: **Executive Dashboard**, **Customer Analytics**, **Recommendation Engine**, **Business Insights**, **Explainability**.
 
+<img width="907" height="414" alt="image" src="https://github.com/user-attachments/assets/b85e3e23-7dae-4205-9176-d3e60e094f38" />
+
+<img width="914" height="378" alt="image" src="https://github.com/user-attachments/assets/fbca201a-8daf-4317-9b9d-ec481c6cbd2c" />
+
+
+
 ## Deployment
 
 **Streamlit Community Cloud (recommended, free):**
@@ -121,3 +127,6 @@ Python · Pandas / NumPy · Scikit-learn · XGBoost · LightGBM · SHAP · Imbal
 - **Purchase prediction & CLV models** have low absolute predictive power (see [Honest findings](#honest-findings)) — a structural property of Olist's repurchase rate, not a pipeline defect.
 - **Recommendations** perform strongly for customers with repeat-category history (~3% of the base) but fall back to content-based popularity for the ~95% of customers who bought only once (true cold start).
 - `customer_id` in the raw Olist data is unique **per order**, not per person — all customer-level aggregation in this project correctly uses `customer_unique_id` instead.
+
+## Authur
+Janani
